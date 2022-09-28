@@ -1,10 +1,10 @@
 body {
     background: #FFFFFF;
-}
-h1 {
+  }
+  h1 {
     text-align: center;
-}
-.caixa1 {
+  }
+  .caixa1 {
     position: absolute;
     background: #0B173B;
     color: #FFFFFF;
@@ -12,8 +12,9 @@ h1 {
     height: 40px;
     right: 0;
     top: 0;
-}
-.caixa2 {
+  }
+  
+  .caixa2 {
     position: absolute;
     background: #0431B4;
     color: #FFFFFF;
@@ -21,98 +22,105 @@ h1 {
     height: 40px;
     right: 44px;
     top: 0;
-}
-.caixa3 {
+  }
+  
+  .caixa3 {
     position: absolute;
     background: #0431B4;
     color: #FFFFFF;
     width: 40px;
     height: 40px;
-    right: 0;
+    right: 0px;
     top: 44px;
-}
-.caixa4 {
-    position: absolute;
-    background: #0B173B;
-    color: #FFFFFF;
-    width: 40px;
-    height: 40px;
-    right: 44px;
-    top: 44px;
-}
-.caixa5 {
-    position: absolute;
-    background: black;
-    color: #FFFFFF;
-    width: 40px;
-    height: 40px;
-    right: 22px;
-    top: 22px;
-}
-
-.menuPrincipal {
-    position: relative;
-    background: #0174DF;
-    width: 100%;
-    height: 45px;
-    top: 0;
-    left: 0;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: start;
-    text-transform: uppercase;
-}
-
-nav ul {
+  }
+  
+  .caixa4 {
+  position: absolute;
+  background: #0B173B;
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  right: 44px;
+  top: 44px;
+  }
+  
+  .caixa5 {
+  position: absolute;
+  background: black;
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  right: 22px;
+  top: 22px;
+  
+  }
+  .menuPrincipal {
+     position: absolute;
+     background: #0174DF;
+     width: 100%;
+     height: 45px;
+     top: 0;
+     left: 0;
+     color: #FFFFFF;
+     display: flex;
+     justify-content: start;
+     text-transform: uppercase;
+  }
+  
+  nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: 0;
-}
-li {
+  }
+  li{
     float: left;
-}
-li a {
+  }
+  li a {
     display: block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-}
-li a:hover {
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  li a:hover {
     background: #2E64FE;
     color: #2E2E2E;
-}
-#aviao {
+  }
+  
+  #aviao {
     width: 20%;
-}
-#aviao:hover {
+  }
+  
+  #aviao:hover {
     width: 22%;
-}
-.caixaAviao {
+  }
+  
+  .caixaAviao {
     position: absolute;
     top: 50px;
     left: 0;
     width: 90%;
     height: 150px;
-    background: #FFFFFF;
+    background:rgb(242, 242, 239);
     margin: 20px;
-    border-color: #0404B4;
+    border-color: #3104B4;
     border-width: 20px;
     border-style: solid;
     padding: 20px;
     display: flex;
     justify-content: center;
-}
-.rodape {
-    position: absolute;
+  }
+  
+  .rodape {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
-
-}
-#copy {
+  }
+  #copy {
     position: relative;
     bottom: 0;
     border-radius: 30px;
@@ -123,18 +131,18 @@ li a:hover {
     display: flex;
     justify-content: center;
     font-size: 18px;
-}
-.conteudo {
-    position: absolute;
-    top: 45px;
-    width: 95%;
-    padding: 5px;
-}
-.redesSociais {
+  }
+  .conteudo {
+     position: absolute;
+     top: 45px;
+     width: 95%;
+     padding: 5px;
+  }
+  .coraline {
     position: absolute;
     width: 120px;
     height: 100px;
     top: 0;
     right: 0;
     z-index: 999;
-}
+  }
